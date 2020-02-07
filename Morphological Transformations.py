@@ -1,9 +1,10 @@
 import cv2
 import numpy as np
+'''
 
 
-# this is to remove diffrent type of noise
 
+'''
 cap=cv2.VideoCapture(1)
 
 while(1) :

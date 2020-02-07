@@ -15,7 +15,7 @@ pts=np.array([[0,0],[50,100],[100,50]], np.int32)
 cv2.polylines(img,[pts],True,(255,0,255),5)
 #To write on an image
 font=cv2.FONT_HERSHEY_SIMPLEX
-cv2.putText(img," FUCK ME ! ",(0,130),font,1,(0,0,0),2,cv2.LINE_AA)
+cv2.putText(img," HI I AM MANAS ! ",(0,130),font,1,(0,0,0),2,cv2.LINE_AA)
 cv2.imshow('Image',img)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
